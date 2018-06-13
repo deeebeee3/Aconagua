@@ -59,3 +59,14 @@ typings/
 
 # next.js build output
 .next
+
+# BB1 Specific
+DeployDistribution/*
+LocalDistribution/*
+payload.json
+templates-manifest-checkout.json
+templates-manifest-myaccount.json
+templates-manifest-shopping.json
+output/*
+
+.DS_Store
