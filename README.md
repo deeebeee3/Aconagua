@@ -170,5 +170,35 @@ README.md
 
 Run npm install in ExtensionDevelopmentTools and ThemeDevelopmentTools folders.
 
+_____________________________________________________________________
+
+###THEME SETUP
+
+Go to Setup > SuiteCommerce Advanced > Extension Management and activate a theme first.
+
+Select the SuiteCommerce Base Theme and click “next” 
+
+Wait for the Activate Extensions installation to complete (the green progress bar will reach 100%)
+
+Once at 100% click Next… Summary should show everything completed successfully… Then click Finish
+
+Now download the theme to ThemeDevelopmentTools folder… by navigating to that folder and running:
+
+gulp theme:fetch
+
+Enter email / password
+
+Select:
+
+1. TSTDRV1939960 - SDN SCA Mont Blanc Testing - Administrator
+2. SCA Demo
+3. Domain (deepaktestsite.bluebridgeone.com)
+
+A “Workspaces” folder will be created in ThemeDevelopmentTools folder, which contains the theme
+
+￼
+
+
+
 
 
