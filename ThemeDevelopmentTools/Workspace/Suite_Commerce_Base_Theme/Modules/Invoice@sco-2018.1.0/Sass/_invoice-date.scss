@@ -1,0 +1,20 @@
+.invoice-date-overdue{
+	@extend .sc-value;
+	color: $sc-color-error;
+}
+
+.invoice-date-overdue-icon{
+	margin-left: $sc-margin-lv1;
+	@extend .fa;
+	@extend %fa-flag;
+	color: $sc-color-error;
+}
+
+.invoice-date-due{
+	@extend .sc-value;
+}
+
+.invoice-date-legend{
+	@extend small;
+	display: block;
+}

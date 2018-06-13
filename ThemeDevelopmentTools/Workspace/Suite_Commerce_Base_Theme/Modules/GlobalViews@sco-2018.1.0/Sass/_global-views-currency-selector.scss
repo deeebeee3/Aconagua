@@ -1,0 +1,11 @@
+.global-views-currency-selector{
+	@extend .selector;
+}
+
+.global-views-currency-selector-addon{
+	@extend .selector-icon;
+}
+
+.global-views-currency-selector-select{
+	@extend .selector-select;
+}

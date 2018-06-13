@@ -1,0 +1,27 @@
+.requestquote-wizard-module-comments {}
+.requestquote-wizard-module-comments-title {
+	margin-bottom: $sc-margin-lv2;
+}
+.requestquote-wizard-module-comments-box {
+	@extend .box-column;
+}
+.requestquote-wizard-module-comments-box p {
+	margin-bottom: $sc-margin-lv2;
+}
+.requestquote-wizard-module-comments-box p span {
+	@extend .sc-label;
+}
+.requestquote-wizard-module-comments-box-textarea {
+	@media (min-width: $screen-sm-min) {
+		width: 50%;
+	}
+}
+.requestquote-wizard-module-comments-box-message {
+	padding: $sc-padding-lv4 $sc-padding-lv4 $sc-padding-lv2;
+	background: $sc-neutral-shade-0;
+}
+.requestquote-wizard-module-comments-box-textarea-length {
+	display: block;
+	margin-top: $sc-margin-lv2;
+}
+.requestquote-wizard-module-comments-box-textarea-length-number{}

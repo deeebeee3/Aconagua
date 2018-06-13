@@ -1,0 +1,92 @@
+footer {
+    background: $sc-footer-background-color;
+    border-top: 1px solid $sc-footer-border-color;
+    color: $sc-footer-text-color;
+
+    p {
+        color: $sc-footer-text-color;
+    }
+
+    a {
+        color: $sc-footer-link-color;
+
+        &:hover {
+            color: $sc-footer-link-color-hover;
+        }
+
+        &:active {
+            color: $sc-footer-link-color-active;
+        }
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $sc-footer-headings-color;
+    }
+
+    input {
+        background: $sc-footer-fields-background-color;
+        border: 1px solid $sc-footer-fields-border-color;
+        color: $sc-footer-fields-text-color;
+    }
+
+    button, button.button-secondary, button.button-tertiary {
+        @extend .button-medium;
+
+        background: $sc-footer-buttons-background-color;
+        color: $sc-footer-buttons-text-color;
+        border: 1px solid $sc-footer-buttons-border-color;
+    }
+}
+
+.footer-content{
+    @extend .container;
+    @extend .row;
+    margin: auto;
+}
+.footer-content-nav {
+    @extend .col-md-8;
+    @extend .col-xs-12;
+    padding-left: 0;
+    padding-right: 0;
+}
+.footer-content-nav-list {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+    padding: $sc-padding-lv6 0 0;
+
+    @media (min-width: $screen-sm-min) {
+        padding-top: $sc-padding-lv5;
+    }
+
+    @media (min-width: $screen-md-min) {
+        text-align: left;
+    }
+}
+.footer-content-nav-list > li {
+    display: inline-block;
+    margin-right: $sc-margin-lv2;
+    font-weight: 300;
+}
+
+.footer-content-right {
+    @extend .col-md-4;
+    @extend .col-xs-12;
+    text-align:center;
+    font-size: $sc-font-size-m;
+    padding: $sc-padding-lv3 0;
+
+    @media (min-width: $screen-md-min) {
+        text-align: right;
+        padding-top: $sc-padding-lv5;
+        padding-bottom: $sc-padding-lv5;
+        float: right;
+    }
+}
+
+.footer-content-copyright {
+    color: $sc-footer-copyright-text-color;
+    display: block;
+    float: none;
+    clear: both;
+}

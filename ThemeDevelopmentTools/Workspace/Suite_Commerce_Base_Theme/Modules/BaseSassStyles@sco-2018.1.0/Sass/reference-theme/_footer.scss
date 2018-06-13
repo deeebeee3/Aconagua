@@ -1,0 +1,25 @@
+// Footer variables
+$sc-footer-background-color: $sc-color-theme-background; /* editable({"type": "color", "label": "Background"}) */
+$sc-footer-border-color: $sc-color-theme-border-light; /* editable({"type": "color", "label": "Border"}) */
+$sc-footer-text-color: $sc-color-copy; /* editable({"type": "color", "label": "Text"}) */
+
+// Link variables
+$sc-footer-link-color: $sc-color-link; /* editable({"type": "color", "label": "Link"}) */
+$sc-footer-link-color-hover: $sc-color-link-hover; /* editable({"type": "color", "label": "Link hover"}) */
+$sc-footer-link-color-active: $sc-color-link-active; /* editable({"type": "color", "label": "Link active"}) */
+
+// Headings color
+$sc-footer-headings-color: $sc-color-secondary; /* editable({"type": "color", "label": "Headings"}) */
+
+// Input fields variables
+$sc-footer-fields-background-color: $sc-neutral-shade-0;
+$sc-footer-fields-border-color: $sc-color-theme-border;
+$sc-footer-fields-text-color: $sc-color-copy;
+
+// Buttons variables
+$sc-footer-buttons-background-color: $sc-color-secondary; /* editable({"type": "color", "label": "Button background"}) */
+$sc-footer-buttons-text-color: $sc-button-secondary-text-color; /* editable({"type": "color", "label": "Button text"}) */
+$sc-footer-buttons-border-color: $sc-button-secondary-background-color; /* editable({"type": "color", "label": "Button border"}) */
+
+// Copyright color
+$sc-footer-copyright-text-color: $sc-color-theme-500; /* editable({"type": "color", "label": "Copyright text"}) */

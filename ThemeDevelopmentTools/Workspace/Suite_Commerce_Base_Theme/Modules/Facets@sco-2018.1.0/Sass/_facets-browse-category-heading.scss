@@ -1,0 +1,34 @@
+
+.facets-browse-category-heading-list-header
+{
+	display: table;
+	padding-bottom: $sc-padding-lv3;
+}
+
+.facets-browse-category-heading-main-description
+{
+	width: auto;
+	margin: $sc-margin-lv2;
+
+	@media (min-width: $screen-md-min)
+	{
+		margin-left: $sc-margin-lv4;
+	}
+
+}
+
+.facets-browse-category-heading-main-description h3
+{
+	text-transform: none;
+	font-weight: normal;
+}
+
+.facets-browse-category-heading-main-image
+{
+	display: none;
+
+	@media (min-width: $screen-md-min)
+	{
+		display: inherit;
+	}
+}

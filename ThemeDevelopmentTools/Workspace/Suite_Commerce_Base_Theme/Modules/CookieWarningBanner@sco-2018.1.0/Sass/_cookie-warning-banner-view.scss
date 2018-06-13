@@ -1,0 +1,8 @@
+.cookie-warning-banner-view {
+	@extend .global-views-message;
+	@extend .global-views-message-info;
+}
+
+.cookie-warning-banner-view-close-button {
+	@extend .global-views-message-button;
+}

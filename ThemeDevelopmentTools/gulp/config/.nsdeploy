@@ -1,0 +1,13 @@
+{
+    "credentials": {
+        "email": "dbhari@bluebridgeone.com",
+        "account": "TSTDRV1939960",
+        "role": 3,
+        "hostname": "rest.netsuite.com",
+        "website": "2",
+        "domain": "deepaktestsite.bluebridgeone.com",
+        "webapp_id": "5200",
+        "target_folder": "5200",
+        "roleId": 3
+    }
+}

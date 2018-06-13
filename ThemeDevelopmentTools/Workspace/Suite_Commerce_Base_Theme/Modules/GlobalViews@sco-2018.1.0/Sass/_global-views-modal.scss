@@ -1,0 +1,31 @@
+.global-views-modal-large {
+	@extend .modal-lg;
+}
+.global-views-modal-content {
+	@extend .modal-content;
+	padding: $sc-margin-lv4 + $sc-margin-lv1;
+	border-radius: 10px;
+	display: block;
+	-webkit-box-shadow: 0 2px 5px transparentize($sc-neutral-shade-500, 1-0.2);
+	box-shadow: 0 2px 5px transparentize($sc-neutral-shade-500, 1-0.2);
+}
+.global-views-modal-content-header {
+	margin-bottom:$sc-margin-lv4;
+	display: inline-block;
+	width: 100%;
+}
+.global-views-modal-content-header-close {
+  margin-top: -2px;
+	float:right;
+	font-size:35px;
+	font-weight:$sc-font-weight-normal;
+	line-height:20px;
+	color: $sc-color-theme-500;
+	cursor: pointer;
+	background: none;
+}
+.global-views-modal-content-header-title {
+	@extend .modal-title;
+}
+
+.global-views-modal-content-body{}

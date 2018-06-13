@@ -1,0 +1,28 @@
+.order-wizard-paymentmethod-selector-module {
+	@extend .box-column;
+
+	.creditcard-edit-form {
+	  clear: both;
+	}
+	.creditcard-edit-form-securitycode {
+		padding: 0;
+	}
+}
+
+.order-wizard-paymentmethod-selector-module-header {
+	margin-bottom: $sc-margin-lv3;
+	color: $sc-color-theme-700;
+}
+
+.order-wizard-paymentmethod-selector-module-options {
+	@extend .input-large;
+	margin-bottom: $sc-margin-lv2;
+	padding: $sc-padding-lv2;
+	width: 100%;
+
+	@media (min-width: $screen-md-min) {
+		width: 300px;
+	}
+}
+
+.order-wizard-paymentmethod-selector-module-payment-method-selector-content{}

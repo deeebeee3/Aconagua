@@ -1,0 +1,30 @@
+.order-history-payments-info-cards-row{
+	margin-left:-$sc-margin-lv3;
+	margin-right:-$sc-margin-lv3;
+}
+
+.order-history-payments-info-cards-container {
+	@extend .col-sm-6;
+	@extend .col-xs-12;
+
+	.order-history-payments-info-cards {
+	@extend .info-card;
+	margin-bottom:$sc-margin-lv4;
+	}
+}
+
+.order-history-payments-method-title {
+	margin-bottom: $sc-margin-lv4;
+}
+
+.order-history-payments-label {
+	@extend .order-history-other-payments-table-body-label;
+}
+
+.order-history-payments-label-payment-number {
+	font-size:$sc-font-size-m;
+}
+
+.order-history-payments-info-card-amount-info{}
+.order-history-payments-info-card-date-info{}
+.order-history-payments-info-card-payment-link{}

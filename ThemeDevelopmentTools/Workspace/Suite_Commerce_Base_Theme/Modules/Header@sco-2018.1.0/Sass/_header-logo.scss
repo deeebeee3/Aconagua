@@ -1,0 +1,28 @@
+.header-logo {
+	display: block;
+	line-height: $sc-main-nav-height;
+	height: $sc-main-nav-height;
+	margin-left:-$sc-margin-lv2;
+
+	@media (max-width: $screen-xs-min) {
+		max-width: 100%;
+	}
+
+	@media (min-width: $screen-sm-min) {
+		width: 100%;
+		margin:0px;
+	}
+}
+
+.header-logo-image {
+	width: 90%;
+	max-width: 115px;
+	max-height: 50px;
+	vertical-align: middle;
+
+	@media (min-width: $screen-md-min) {
+		width: auto;
+	}
+}
+
+.header-logo-sitename {}

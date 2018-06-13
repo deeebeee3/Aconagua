@@ -1,0 +1,24 @@
+.product-detail-to-quote-add-to-quote {}
+
+.product-detail-to-quote-add-to-quote-button {
+	@extend .button-tertiary;
+	@extend .button-large;
+	margin-top: $sc-margin-lv3;
+	margin-left: 0;
+	font-weight: $sc-font-weight-semibold;
+	width: 100%;
+	text-align:center;
+	cursor:pointer;
+	cursor:hand;
+}
+
+.product-detail-to-quote-loading {
+	@extend .product-detail-to-quote-add-to-quote-button;
+	@extend .product-detail-to-quote-add-to-quote-button:disabled;
+	cursor: auto;
+}
+
+.quick-view-confirmation-modal .product-detail-to-quote-add-to-quote {
+	padding-left: 0;
+	padding-right: $sc-padding-lv3;
+}

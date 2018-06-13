@@ -1,0 +1,10 @@
+
+.order-history-item-actions-reorder{
+	cursor:pointer;
+	cursor:hand;
+	@extend .button-secondary;
+	@extend .button-small;
+	@extend .button-generic;
+	display: inline-block;
+	width: auto;
+}

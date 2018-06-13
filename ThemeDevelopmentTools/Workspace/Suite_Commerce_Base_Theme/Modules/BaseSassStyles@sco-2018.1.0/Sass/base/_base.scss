@@ -1,0 +1,21 @@
+.main, .layout-container {
+	min-height: 100%;
+	height: auto;
+	width: 100%;
+}
+
+%sc-layout {
+	min-height: 100%;
+}
+
+%sc-footer {
+}
+
+.layout-overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+}

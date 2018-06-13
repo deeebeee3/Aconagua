@@ -1,0 +1,16 @@
+.error-management-expired-link-header {}
+
+.error-management-expired-link-header-title {
+	margin-bottom: $sc-margin-lv4;
+}
+
+.error-management-expired-link-main-banner {}
+
+.error-management-expired-link-content {}
+
+.error-management-expired-link-login-button,
+.error-management-expired-link-register-button {
+	@extend .button-primary;
+	@extend .button-large;
+}
+
