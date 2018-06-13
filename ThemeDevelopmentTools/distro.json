@@ -1,0 +1,17 @@
+{
+    "name": "EMB Theme DevTools 2018.1.0",
+    "version": "2.0",
+    "buildToolsVersion": "sco-2018.1.0",
+    "folders": {
+        "modules": "Modules",
+        "suitecommerceModules": "Modules/suitecommerce",
+        "distribution": "LocalDistribution",
+        "deploy": "DeployDistribution"
+    },
+    "modules": {},
+    "tasksConfig": {},
+    "license": {
+        "text": ""
+    },
+    "unbuild": {}
+}

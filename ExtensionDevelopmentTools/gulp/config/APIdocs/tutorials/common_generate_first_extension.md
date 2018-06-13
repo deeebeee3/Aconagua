@@ -1,0 +1,1 @@
+The easy way of generating a working extension example is by using SuiteCommerce Developer tools. First make sure you have them working.

@@ -1,0 +1,52 @@
+{
+
+    "common_events": {
+        "title": "How to work with events"
+    },
+    "common_howto_cancelable_event": {
+        "title": "How to Cancel events"
+    },
+    "common_deferred": {
+        "title": "How to work with Deferred responses"
+    },
+    "common_generate_first_extension": {
+        "title": "Generate extension example with Devtools"
+    },
+    "common_devtools_getting_started": {
+        "title": "Getting started with SuiteCommerce Developer Tools"
+    },
+
+    "frontend_index": {
+        "title": "SuiteCommerce Front-end JavaScript APIs"
+    },
+    "frontend_configuration": {
+        "title": "How to access Configuration"
+    },
+    
+    "frontend_internationalization": {
+        "title": "Internationalization"
+    },
+    "frontend_defining_new_views": {
+        "title": "Defining new Views"
+    },
+    "frontend_view_manipulation": {
+        "title": "View Manipulation"
+    },
+    "frontend_styles": {
+        "title": "View Manipulation"
+    },
+
+    "frontend_cct": {
+        "title": "Getting started with CCT's front end development"
+    },
+
+    "backend_index": {
+        "title": "SuiteCommerce Back-end JavaScript APIs"
+    },
+    "backend_service_controller": {
+        "title": "Writing Services"
+    }
+
+
+
+}
