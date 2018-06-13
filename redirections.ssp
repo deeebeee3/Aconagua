@@ -1,0 +1,16 @@
+<%/*
+	© 2017 NetSuite Inc.
+	User may not copy, modify, distribute, or re-bundle or otherwise make available this code;
+	provided, however, if you are an authorized user with a NetSuite account or log-in, you
+	may use this code subject to the terms that govern your access and use.
+*/%>
+
+<%
+	// Handles redirections with domain bridging
+	// Used to keep session between domain changes of multi languages
+
+	var session = require('SC.Models.Init').session
+	,	params = request.getAllParameters();
+
+	return nlapiSetRedirectURL('EXTERNAL', session.constructDomainBridgingUrl(params.location));
+%>
