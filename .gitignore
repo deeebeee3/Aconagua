@@ -71,8 +71,8 @@ output/*
 
 # exclude everything except for Workspace/<theme>
 ThemeDevelopmentTools/*
-ThemeDevelopmentTools/!/Workspace
+!ThemeDevelopmentTools/Workspace
 ThemeDevelopmentTools/Workspace/*
-ThemeDevelopmentTools/!/Workspace/Deepaks_Theme
+!ThemeDevelopmentTools/Workspace/Deepaks_Theme
 
 .DS_Store
