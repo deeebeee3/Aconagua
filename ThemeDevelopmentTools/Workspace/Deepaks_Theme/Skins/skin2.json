@@ -36,5 +36,6 @@
 "$sc-neutral-shade": "#4D5256",
 "$sc-color-theme": "#97dfcc",
 "$sc-color-link": "#00b967",
-"$sc-color-link-active": "#00b967"
+"$sc-color-link-active": "#00b967",
+"$color-glowy": "green"
 }
