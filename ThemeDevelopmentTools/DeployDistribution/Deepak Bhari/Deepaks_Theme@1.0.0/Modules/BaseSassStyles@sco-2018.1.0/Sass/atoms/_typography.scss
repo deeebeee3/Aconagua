@@ -1,0 +1,358 @@
+body {
+    font-family: $sc-body-font-family;
+    font-size: $sc-body-font-size;
+    font-style: $sc-body-font-style;
+    line-height: $sc-body-line-height;
+    letter-spacing: $sc-body-letter-spacing;
+    direction: $sc-body-direction;
+
+    @extend %scroll-y;
+
+    @media (min-width: $screen-md-min) {
+        font-size: $sc-body-font-size-desktop;
+    }
+}
+
+// Font styles
+//
+// Markup:
+// <h1>H1 heading</h1><br/>
+// <h2>H2 heading</h2><br/>
+// <h3>H3 heading</h3><br/>
+// <h4>H4 heading</h4><br/>
+// <h5>H5 heading</h5><br/>
+// <p>Lorem ipsum dolor sit amet</p>
+// <p><strong>Lorem ipsum dolor sit amet</strong></p>
+// <p><small>Lorem ipsum dolor sit amet</small></p>
+// <p><a href="#">Lorem ipsum dolor sit amet</a></p>
+//
+// Styleguide 2.2.1
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: $sc-font-weight-bold;
+    text-transform: capitalize;
+}
+
+h1 {
+    color: $sc-color-h1;
+    font-family: $sc-h1-font-family;
+    font-size: $sc-h1-font-size;
+    font-style: $sc-h1-font-style;
+    text-decoration: $sc-h1-text-decoration;
+    line-height: $sc-h1-line-height;
+    letter-spacing: $sc-h1-letter-spacing;
+    margin-top: $sc-h1-margin-top;
+    margin-bottom: $sc-h1-margin-bottom;
+    text-transform: $sc-h1-text-transform;
+
+    @media (min-width: $screen-md-min) {
+        font-size: $sc-h1-desktop-font-size;
+    }
+}
+
+h2 {
+    color: $sc-color-h2;
+    font-family: $sc-h2-font-family;
+    font-size: $sc-h2-font-size;
+    font-style: $sc-h2-font-style;
+    text-decoration: $sc-h2-text-decoration;
+    line-height: $sc-h2-line-height;
+    letter-spacing: $sc-h2-letter-spacing;
+    margin-top: $sc-h2-margin-top;
+    margin-bottom: $sc-h2-margin-bottom;
+    text-transform: $sc-h2-text-transform;
+
+    @media (min-width: $screen-md-min) {
+        font-size: $sc-h2-desktop-font-size;
+    }
+}
+
+h3 {
+    color: $sc-color-h3;
+    font-size: $sc-h3-font-size;
+    font-style: $sc-h3-font-style;
+    text-decoration: $sc-h3-text-decoration;
+    line-height: $sc-h3-line-height;
+    letter-spacing: $sc-h3-letter-spacing;
+    margin-top: $sc-h3-margin-top;
+    margin-bottom: $sc-h3-margin-bottom;
+    text-transform: $sc-h2-text-transform;
+
+    @media (min-width: $screen-md-min) {
+        font-size: $sc-h3-desktop-font-size;
+    }
+}
+
+h4 {
+    color: $sc-color-h4;
+    font-size: $sc-h4-font-size;
+    font-style: $sc-h4-font-style;
+    text-decoration: $sc-h4-text-decoration;
+    line-height: $sc-h4-line-height;
+    letter-spacing: $sc-h4-letter-spacing;
+    margin-top: $sc-h4-margin-top;
+    margin-bottom: $sc-h4-margin-bottom;
+    text-transform: $sc-h4-text-transform;
+
+    @media (min-width: $screen-md-min) {
+        font-size: $sc-h4-desktop-font-size;
+    }
+}
+
+h5 {
+    color: $sc-color-h5;
+    font-size: $sc-h5-font-size;
+    font-style: $sc-h5-font-style;
+    text-decoration: $sc-h5-text-decoration;
+    line-height: $sc-h5-line-height;
+    letter-spacing: $sc-h5-letter-spacing;
+    margin-top: $sc-h5-margin-top;
+    margin-bottom: $sc-h5-margin-bottom;
+    text-transform: $sc-h5-text-transform;
+
+    @media (min-width: $screen-md-min) {
+        font-size: $sc-h5-desktop-font-size;
+    }
+}
+
+h6 {
+    color: $sc-color-h6;
+    font-size: $sc-h6-font-size;
+    font-style: $sc-h6-font-style;
+    text-decoration: $sc-h6-text-decoration;
+    line-height: $sc-h6-line-height;
+    letter-spacing: $sc-h6-letter-spacing;
+    margin-top: $sc-h6-margin-top;
+    margin-bottom: $sc-h6-margin-bottom;
+    text-transform: $sc-h6-text-transform;
+
+    @media (min-width: $screen-md-min) {
+        font-size: $sc-h6-desktop-font-size;
+    }
+}
+
+p {
+    font-family: $sc-body-font-family;
+    font-size: $sc-body-font-size;
+    font-style: $sc-body-font-style;
+    line-height: $sc-body-line-height;
+    letter-spacing: $sc-body-letter-spacing;
+
+    color: $sc-color-paragraph;
+    margin-top: $sc-paragraph-margin-top;
+    margin-bottom: $sc-paragraph-margin-bottom;
+}
+
+small {
+    font-size: $sc-font-size-xs;
+}
+
+b, strong {
+    font-weight: $sc-font-weight-bold;
+}
+
+blockquote {
+    font-family: $sc-blockquote-font-family;
+    color: $sc-color-blockquote;
+    font-size: $sc-blockquote-font-size;
+    font-style: $sc-blockquote-font-style;
+    text-decoration: $sc-blockquote-text-decoration;
+    line-height: $sc-blockquote-line-height;
+    letter-spacing: $sc-blockquote-letter-spacing;
+    margin-top: $sc-blockquote-margin-top;
+    margin-bottom: $sc-blockquote-margin-bottom;
+    font-weight: $sc-blockquote-font-weight;
+    text-transform: $sc-blockquote-text-transform;
+}
+
+// Titles styles
+//
+// .xsmall-title    - Product Titles XSmall & Product Titles XSmall navigatable
+// .small-title     - Product Titles Small & Product Titles Small navigatable
+// .middle-title    - Product Titles Medium & Product Titles Medium navigatable
+// .large-title     - Product Titles Large & Product Titles Large navigatable
+//
+// Markup:
+// <div class="xsmall-title">Lorem ipsum dolor sit amet</div>
+// <div class="small-title">Lorem ipsum dolor sit amet</div>
+// <div class="middle-title">Lorem ipsum dolor sit amet</div>
+// <div class="large-title">Lorem ipsum dolor sit amet</div>
+//
+// Styleguide 2.2.2
+
+.large-title {
+    @extend h1;
+}
+
+.large-title-navigable {
+    @extend h1;
+    color: $sc-color-secondary;
+
+    :hover{
+        color: $sc-color-link-hover;
+        text-decoration: none;
+    }
+}
+
+.large-title-viewonly {
+    @extend h1;
+    color: $sc-color-copy-dark;
+}
+
+.medium-title {
+    font-weight: $sc-font-weight-semibold;
+    font-size: $sc-font-size-l;
+    color: $sc-color-copy-dark;
+}
+
+.medium-title-navigable {
+    color:$sc-color-secondary;
+    font-size: $sc-font-size-l;
+    font-weight:$sc-font-weight-semibold;
+
+    &:hover{
+        color: $sc-color-link-hover;
+        text-decoration:none;
+    }
+}
+
+.medium-title-viewonly {
+    font-size: $sc-font-size-l;
+    color: $sc-color-copy-dark;
+    font-weight:$sc-font-weight-semibold;
+}
+
+.small-title {
+    font-size: $sc-font-size-m;
+    font-weight: $sc-font-weight-semibold;
+}
+
+.small-title-navigable {
+    font-size: $sc-font-size-m;
+    font-weight: $sc-font-weight-semibold;
+    color: $sc-color-secondary;
+
+    :hover{
+        color: $sc-color-link-hover;
+        text-decoration: none;
+    }
+}
+
+.small-title-viewonly {
+    font-size: $sc-font-size-m;
+    font-weight: $sc-font-weight-semibold;
+}
+
+.xsmall-title {
+    font-size: $sc-font-size-m;
+    color: $sc-color-copy-dark;
+    font-weight: $sc-font-weight-normal;
+    text-transform: capitalize;
+}
+
+.xsmall-title-navigable {
+    color: $sc-color-secondary;
+    font-size: $sc-font-size-m;
+    font-weight: $sc-font-weight-normal;
+    text-transform: capitalize;
+
+    &:hover{
+        color: $sc-color-link-hover;
+        text-decoration:none;
+    }
+}
+
+.xsmall-title-viewonly {
+    font-size: $sc-font-size-m;
+    font-weight: $sc-font-weight-normal;
+    text-transform: capitalize;
+}
+
+//  Price styles
+//
+// .old-price       - Old price
+// .small-price     - Small price
+// .middle-price    - Middle price
+// .large-price     - Large price
+//
+// Markup:
+// <div class="old-price">$100</div>
+// <div class="small-price">$100</div>
+// <div class="middle-price">$100</div>
+// <div class="large-price">$100</div>
+//
+// Styleguide 2.2.3
+
+.large-price {
+    color: $sc-color-copy-dark;
+    font-size: $sc-font-size-xxl;
+    font-weight: $sc-font-weight-semibold;
+    line-height: 1.2;
+
+    @media (min-width: $screen-md-min) {
+        font-size: $sc-font-size-xxxl;
+    }
+}
+
+.middle-price {
+    font-size: $sc-font-size-m;
+    font-weight: $sc-font-weight-semibold;
+    color: $sc-color-primary;
+}
+
+.small-price {
+    font-size:14px;
+    color: $sc-color-primary;
+}
+
+.old-price {
+    font-size: $sc-font-size-xs;
+    color: $sc-color-theme-700;
+    font-weight: $sc-font-weight-light;
+    text-decoration:line-through;
+}
+
+// SKU
+//
+// Markup:
+// <p>
+//     <span class="sc-sku-label">SKU: </span>
+//     <span class="sc-sku-value">FARIDA D8-X OP ACOUSTIC GUITAR</span>
+// </p>
+//
+// Styleguide 2.2.4
+
+.sc-sku-label, .sc-sku-value {
+    font-size: $sc-font-size-s;
+    color: $sc-color-copy-light;
+}
+
+// Labels
+//
+// Markup:
+// <span class="sc-label">Color: </span><span class="sc-value">Blue</span>
+//
+// Styleguide 2.2.5
+
+.sc-label {
+    color: $sc-color-copy-light;
+    font-size: $sc-font-size-s;
+}
+
+.sc-value {
+    color: $sc-color-copy-dark;
+    font-size: $sc-font-size-s;
+}
+
+.sc-highlighted {
+    color: $sc-color-primary;
+}
+
+.sc-mobile-label {
+    @media (min-width: $screen-sm-min){
+        display: none;
+    }
+}

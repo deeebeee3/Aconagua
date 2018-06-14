@@ -22,8 +22,9 @@
         "deploy": "DeployDistribution",
         "extensions_dest_name": "Deploy_Extensions",
         "extmech_parent": "-15",
-        "theme_path": "Workspace/Suite_Commerce_Base_Theme",
-        "overrides_path": "Workspace/Suite_Commerce_Base_Theme/Overrides"
+        "theme_path": "Workspace/Deepaks_Theme",
+        "overrides_path": "Workspace/Deepaks_Theme/Overrides",
+        "extensions_dest": "5781"
     },
     "application": {},
     "script": {

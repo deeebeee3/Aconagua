@@ -1,0 +1,9 @@
+.product-line-sku-container {
+	margin-bottom: $sc-margin-lv1;
+}
+.product-line-sku-value {
+	@extend .sc-sku-value;
+}
+.product-line-sku-label {
+	@extend .sc-sku-label;
+}

@@ -1,0 +1,27 @@
+
+.locator-venue-details-title {
+    color: $sc-neutral-shade-500;
+}
+
+.locator-venue-details-container {}
+.locator-venue-details-container-services-hours {
+	margin-top: $sc-margin-lv2;
+}
+
+.locator-venue-details-container-address {}
+
+.locator-venue-details-container-services-hours-next-pickup-day-information {
+	color: $sc-color-success;
+	margin-top: $sc-margin-lv2;
+}
+
+.locator-venue-details-address {}
+.locator-venue-details-city {}
+.locator-venue-details-state {}
+.locator-venue-details-zipcode {}
+.locator-venue-details-phone {}
+
+.locator-venue-details-container-service-hours-title, .locator-venue-details-phone-label {
+	@extend .sc-label;
+}
+.locator-venue-details-container-service-hours-row {}

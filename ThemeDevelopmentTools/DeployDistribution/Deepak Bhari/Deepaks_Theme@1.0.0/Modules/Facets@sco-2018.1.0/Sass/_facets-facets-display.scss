@@ -1,0 +1,35 @@
+.facets-facets-display-narrowedby-title{
+	text-transform: capitalize;
+}
+
+.facets-facets-display-filter {
+	@extend small;
+	color: $sc-color-secondary;
+	margin-left: $sc-margin-lv2;
+	display: inline-block;
+}
+
+.facets-facets-display-filter-delete-icon {
+	@extend .icon-base;
+	@extend %fa-times-circle;
+
+	position: relative;
+	top: 2px;
+	color: $sc-color-secondary;
+	margin-left: $sc-margin-lv1;
+}
+
+.facets-facets-display-clear-wrapper{
+	margin-top: $sc-margin-lv1;
+	@media (min-width: $screen-md-min){
+		display: none;
+	}
+}
+
+.facets-facets-display-clear {
+	@extend .filter-generic;
+}
+
+.facets-facets-display-clear-icon {
+	@extend .facets-faceted-navigation-facet-option-circle;
+}

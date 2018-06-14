@@ -1,0 +1,13 @@
+.product-list-control-item {
+	height: $sc-target-size;
+}
+
+.product-list-control-item-label {
+	cursor: pointer;
+	padding: $sc-padding-lv1 0;
+	margin-bottom: $sc-margin-lv1;
+	display: inline-block;
+	width: 100%
+}
+
+.product-list-control-item-checkbox {}

@@ -1,0 +1,21 @@
+.product-views-option-currency {
+	width: 100%;
+	margin-bottom:$sc-margin-lv4;
+
+	[data-validation-error="block"]{
+  		display:table;
+  		margin-top:$sc-margin-lv1;
+  	}
+}
+
+.product-views-option-currency-label {}
+.product-views-option-currency-label-required {
+	@extend .input-required;
+}
+.product-views-option-currency-input {
+	@extend .input-medium;
+}
+
+[data-action="sc-pushing"] .product-views-option-currency-input {
+    width: 100%;
+}

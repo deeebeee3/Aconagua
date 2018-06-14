@@ -1,0 +1,29 @@
+.merchandising-zone-container .bx-wrapper {
+	position: relative;
+}
+
+.merchandising-zone-container .bx-controls-direction {
+    text-align: right;
+}
+
+.merchandising-zone {
+    padding-top: $sc-padding-lv3;
+}
+.merchandising-zone-container {
+    min-height: 200px;
+}
+
+.merchandising-zone h3 {
+    margin-bottom: $sc-margin-lv2;
+}
+
+.merchandising-zone .merchandising-zone-cell-template {
+    text-align: center;
+}
+
+.merchandising-zone .global-views-star-rating {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.merchandising-zone-description{}

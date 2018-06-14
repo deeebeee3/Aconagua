@@ -1,0 +1,21 @@
+.overview-profile-header {
+    @extend .overview-shipping-header;
+}
+.overview-profile-header h4 {
+    margin: $sc-margin-lv2 0;
+}
+.overview-profile-card {
+    @extend .overview-shipping-card;
+}
+.overview-profile-card-content {
+	@extend .overview-shipping-card-content;
+}
+.overview-profile-card-button-edit {
+    @extend .overview-shipping-card-button-edit
+}
+.overview-profile-company, .overview-profile-name-title {
+	font-weight: $sc-font-weight-bold;
+}
+
+.overview-profile-email{}
+.overview-profile-phone{}

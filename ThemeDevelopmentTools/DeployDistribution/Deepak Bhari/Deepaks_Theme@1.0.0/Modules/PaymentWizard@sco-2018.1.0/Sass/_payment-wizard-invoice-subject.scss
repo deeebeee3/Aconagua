@@ -1,0 +1,10 @@
+.payment-wizard-invoice-subject-date-overdue{
+	@extend .invoice-date-overdue;
+}
+
+.payment-wizard-invoice-subject-icon-flag{
+	@extend .invoice-date-overdue-icon;
+}
+
+.payment-wizard-invoice-subject-text-success{
+}

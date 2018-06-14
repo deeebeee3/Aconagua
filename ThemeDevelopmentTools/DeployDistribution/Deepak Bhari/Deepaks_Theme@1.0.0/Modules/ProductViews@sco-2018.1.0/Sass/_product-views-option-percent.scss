@@ -1,0 +1,21 @@
+.product-views-option-percent {
+	width: 100%;
+	margin-bottom:$sc-margin-lv4;
+
+	[data-validation-error="block"]{
+  		display:table;
+  		margin-top:$sc-margin-lv1;
+  	}
+}
+
+.product-views-option-percent-label {}
+.product-views-option-percent-label-required {
+	@extend .input-required;
+}
+.product-views-option-percent-input {
+	@extend .input-medium;
+}
+
+[data-action="sc-pushing"] .product-views-option-percent-input {
+    width: 100%;
+}

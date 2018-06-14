@@ -1,0 +1,17 @@
+.order-wizard-paymentmethod-paypal-module-row{
+	@extend .clearfix;
+}
+
+.order-wizard-paymentmethod-paypal-module-column-left{
+	@extend .col-xs-12;
+	@extend .col-sm-4;
+	padding-left: 0px;
+}
+
+.order-wizard-paymentmethod-paypal-module-column-right{
+	@extend .col-xs-12;
+	@extend .col-sm-8;
+	padding-left: 0px;
+}
+
+.order-wizard-paymentmethod-paypal-module-paypal-logo{}

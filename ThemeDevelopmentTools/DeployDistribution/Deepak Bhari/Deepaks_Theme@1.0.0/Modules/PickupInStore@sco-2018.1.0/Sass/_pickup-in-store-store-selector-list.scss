@@ -1,0 +1,56 @@
+.pickup-in-store-store-selector-list-divider {
+    margin: $sc-margin-lv4 0;
+    height: 2px;
+    background-color: $sc-color-theme-background;
+    clear:both;
+    display: none;
+
+    @media (min-width: $screen-md-min) {
+        display: block;
+    }
+}
+
+.pickup-in-store-store-selector-list-result-title {
+    margin-bottom: $sc-margin-lv4;
+
+    span {
+        color: $sc-color-primary;
+    }
+
+    @media (max-width: $screen-sm-max) {
+        margin-bottom: $sc-margin-lv2;
+    }
+}
+
+.pickup-in-store-store-selector-list-result-rows {
+    @media (min-width: $screen-sm-min) {
+         overflow-y: auto;
+    }
+}
+
+.pickup-in-store-store-selector-list-refine-search {
+    margin-bottom: $sc-margin-lv4;
+    display: block;
+
+    @media (min-width: $screen-sm-min) {
+        display: none;
+    }
+}
+
+.pickup-in-store-store-selector-list-result-item-selected-detail-mobile {
+    margin-bottom: $sc-margin-lv4;
+
+    @media (min-width: $screen-sm-min) {
+        display: none;
+    }
+}
+
+.pickup-in-store-store-selector-list-result-item-selected-detail-desktop {
+    * {
+        font-size: 0.95em !important;
+    }
+
+    @media (max-width: $screen-xs-max) {
+        display: none;
+    }
+}
