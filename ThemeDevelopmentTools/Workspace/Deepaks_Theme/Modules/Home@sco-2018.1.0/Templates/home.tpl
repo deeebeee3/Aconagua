@@ -9,6 +9,10 @@
 
 	<div data-cms-area="home_cms_area_2" data-cms-area-filters="path"></div>
 
+	<div class="home-banner-prices">
+		<img class="home-banner-prices-image" src="{{getThemeAssetsPath (resizeImage 'img/custom_images/themepricesoutofthisworld.jpg' homeslider)}}">
+	</div>
+
 	<div class="home-slider-container">
 		<div class="home-image-slider">
 			<ul data-slider class="home-image-slider-list">

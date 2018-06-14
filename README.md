@@ -195,6 +195,83 @@ Select:
 3. Domain (deepaktestsite.bluebridgeone.com)
 
 A “Workspaces” folder will be created in ThemeDevelopmentTools folder, which contains the theme
+_____________________________________________________________________
+
+### TEST THEME ON LOCAL SERVER
+
+Run:
+
+gulp theme:local 
+
+This command compiles all source files, including your theme and any extensions customizations, into combined files within a LocalDistribution/tmp directory.
+
+The local server starts automatically. With the local server running, you can make changes to your local files and see the results immediately. Gulp.js automatically recompiles the application when you save any changes to theme-related HTML, Sass, or assets. Simply refresh your browser to see the changes.
+
+To see local site / changes navigate to:
+
+http://deepaktestsite.bluebridgeone.com/sca-dev-aconcagua/shopping-local.ssp
+
+**notice the SSP URL root and also the use of “-local”**
+
+IMPORTANT: If you add a new file or make changes to any overrides after launching the local server, you must run thegulp theme:local command again to include the new changes. Gulp.js does not automatically compile new files or process overrides.
+
+There are three key Gulp commands for working locally:
+* gulp theme:local — spins up the standard local server
+* gulp theme:local --preserve-manifest — spins up the local server without updating the manifest
+* gulp theme:local styleguide — spins up the local server, and a second local server for viewing the live style guide
+_____________________________________________________________________
+
+### PREPARE FOR A NEW THEME
+
+Fetch the Active Theme (this will overwrite any files you have in your workspace): 
+	
+	gulp theme:fetch
+
+Create the New Theme in NetSuite
+
+	gulp theme:deploy --create
+
+￼
+
+_____________________________________________________________________
+
+### VERSION CONTROLLING THE THEME
+
+In your parent directory (which I've called SCA-THEME), create a file called .gitignore and in it put:
+
+# exclude everything except for Workspace/<theme>
+
+/*
+!/Workspace
+/Workspace/*
+!/Workspace/My_Super_Cool_Theme
+
+For details on what's going on here, take a look at their documentation but I'll summarize:
+
+* (The first line is just a comment to us)
+* Ignore everything!
+* Except the Workspace directory
+* But then ignore everything in there!
+* Except the My_Super_Cool_Theme directory
+* 
+Then, in your command line, run git init; when that's done, run git status — you should see this:
+
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    Workspace/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+Running git add . and then git status will give you a long list of green text, itemizing all of the goodness we're going to be saving. Crucially, they should be within the Workspace/My_Super_Cool_Theme directory. If they are, and you're happy, go ahead and do git commit -a -m "Super Cool Theme -- initial commit".
+_____________________________________________________________________
+
 
 ￼
 

@@ -2235,8 +2235,8 @@ tbody.collapse.in {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../extensions/SuiteCommerce/Suite_Commerce_Base_Theme/18.1.0/font-awesome/fontawesome-webfont.eot?v=4.2.0");
-  src: url("../extensions/SuiteCommerce/Suite_Commerce_Base_Theme/18.1.0/font-awesome/fontawesome-webfont.eot?#iefix&v=4.2.0") format("embedded-opentype"), url("../extensions/SuiteCommerce/Suite_Commerce_Base_Theme/18.1.0/font-awesome/fontawesome-webfont.woff?v=4.2.0") format("woff"), url("../extensions/SuiteCommerce/Suite_Commerce_Base_Theme/18.1.0/font-awesome/fontawesome-webfont.ttf?v=4.2.0") format("truetype"), url("../extensions/SuiteCommerce/Suite_Commerce_Base_Theme/18.1.0/font-awesome/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular") format("svg");
+  src: url("../extensions/Deepak Bhari/Deepaks_Theme/1.0.0/font-awesome/fontawesome-webfont.eot?v=4.2.0");
+  src: url("../extensions/Deepak Bhari/Deepaks_Theme/1.0.0/font-awesome/fontawesome-webfont.eot?#iefix&v=4.2.0") format("embedded-opentype"), url("../extensions/Deepak Bhari/Deepaks_Theme/1.0.0/font-awesome/fontawesome-webfont.woff?v=4.2.0") format("woff"), url("../extensions/Deepak Bhari/Deepaks_Theme/1.0.0/font-awesome/fontawesome-webfont.ttf?v=4.2.0") format("truetype"), url("../extensions/Deepak Bhari/Deepaks_Theme/1.0.0/font-awesome/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -9244,6 +9244,10 @@ a.header-mini-cart-buttons {
   @media (min-width: 992px) {
     .header-logo-image {
       width: auto; } }
+
+.home-banner-prices {
+  margin-top: 20px;
+  font-size: 0; }
 
 .home-slider-container {
   margin-top: 20px;
