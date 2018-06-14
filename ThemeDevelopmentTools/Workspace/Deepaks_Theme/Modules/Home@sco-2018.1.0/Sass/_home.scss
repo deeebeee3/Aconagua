@@ -12,6 +12,12 @@
   font-size: 0;
 }
 
+.home-banner-prices-image {
+  @extend .glowy;
+  width: 90%;
+  margin: 5%;
+}
+
 .home-slider-container {
   margin-top:$sc-margin-lv4;
   margin-bottom:$sc-margin-lv4;

@@ -9249,6 +9249,10 @@ a.header-mini-cart-buttons {
   margin-top: 20px;
   font-size: 0; }
 
+.home-banner-prices-image {
+  width: 90%;
+  margin: 5%; }
+
 .home-slider-container {
   margin-top: 20px;
   margin-bottom: 20px; }
@@ -12729,5 +12733,27 @@ ul.recently-viewed-row-cell li {
 .locator-venue-details-container-services-hours-next-pickup-day-information {
   color: #097839;
   margin-top: 10px; }
+
+/* editable({
+    "type": "color",
+    "label": "Glowy Color",
+    "description": "For when you want extra glowy stuff"
+})*/
+@keyframes glowy {
+  0% {
+    box-shadow: 0 0 -10px #3bfbfd; }
+  20% {
+    box-shadow: 0 0 100px #3bfbfd; }
+  40% {
+    box-shadow: 0 0 200px #3bfbfd; }
+  60% {
+    box-shadow: 0 0 200px #3bfbfd; }
+  80% {
+    box-shadow: 0 0 100px #3bfbfd; }
+  100% {
+    box-shadow: 0 0 -10px #3bfbfd; } }
+
+.glowy, .home-banner-prices-image {
+  animation: glowy 1500ms infinite; }
 
 /*# sourceMappingURL=shopping.css.map */
