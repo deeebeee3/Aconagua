@@ -69,4 +69,10 @@ templates-manifest-myaccount.json
 templates-manifest-shopping.json
 output/*
 
+# exclude everything except for Workspace/<theme>
+ThemeDevelopmentTools/*
+ThemeDevelopmentTools/!/Workspace
+ThemeDevelopmentTools/Workspace/*
+ThemeDevelopmentTools/!/Workspace/Deepaks_Theme
+
 .DS_Store
