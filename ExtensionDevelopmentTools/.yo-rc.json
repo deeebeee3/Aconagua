@@ -1,0 +1,18 @@
+{
+  "generator-extension": {
+    "promptValues": {
+      "vendor": "Deepak",
+      "target": [
+        "SCA",
+        "SCS"
+      ]
+    },
+    "ext_application": {
+      "DeepaksExtension": [
+        "shopping",
+        "myaccount",
+        "checkout"
+      ]
+    }
+  }
+}
