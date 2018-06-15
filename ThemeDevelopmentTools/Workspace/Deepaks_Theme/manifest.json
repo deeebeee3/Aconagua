@@ -567,7 +567,8 @@
             "Modules/OrderWizard.Module.Package@sco-2018.1.0/Sass/_order-wizard-msr-package-details.scss",
             "Modules/OrderWizard.Module.Package@sco-2018.1.0/Sass/_order-wizard-msr-package-list.scss",
             "Modules/OrderWizard.Module.MultiShipTo.EnableLink@sco-2018.1.0/Sass/_order-wizard-msr-enablelink-module.scss",
-            "Modules/OrderWizard.Module.MultiShipTo.EnableLink@sco-2018.1.0/Sass/_order-wizard-msr-removed-promocodes.scss"
+            "Modules/OrderWizard.Module.MultiShipTo.EnableLink@sco-2018.1.0/Sass/_order-wizard-msr-removed-promocodes.scss",
+            "Modules/Glowy@custom-1.0.0/Sass/_glowy.scss"
         ]
     },
     "templates": {

@@ -53,6 +53,7 @@ SuiteCommerce Advanced (Aconagua)
 SuiteCommerce Configuration
 SuiteCommerce Extension Management
 SuiteCommerce Base Theme
+SMT Core Content Types
 
 Setup a Domain:
 
