@@ -1,0 +1,19 @@
+{
+	"type": "object"
+
+,	"group": {
+		"id": "id_1529064427793_group",
+        "title": "My Cool Extension!",
+        "description": "Generic group for extension My Cool Extension!"
+    }
+
+,    "properties": {
+		"id_1529064427793_property1": {
+			"group": "id_1529064427793_group"
+		,	"type": "string"
+		,	"title": "Generic property"
+		,	"description": "Generic configuration property for extension My Cool Extension!"
+		,	"default": "value"
+		}
+	}
+}

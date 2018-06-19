@@ -1,0 +1,19 @@
+{
+	"type": "object"
+
+,	"group": {
+		"id": "id_1529071922782_group",
+        "title": "",
+        "description": "Generic group for extension "
+    }
+
+,    "properties": {
+		"id_1529071922782_property1": {
+			"group": "id_1529071922782_group"
+		,	"type": "string"
+		,	"title": "Generic property"
+		,	"description": "Generic configuration property for extension "
+		,	"default": "value"
+		}
+	}
+}

@@ -12,6 +12,11 @@
         "shopping",
         "myaccount",
         "checkout"
+      ],
+      "MyCoolExtension": [
+        "shopping",
+        "myaccount",
+        "checkout"
       ]
     }
   }

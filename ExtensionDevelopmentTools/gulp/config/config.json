@@ -30,7 +30,7 @@
         "extensions_dest_name": "Deploy_Extensions",
         "extmech_parent": "-15",
         "extensions_path": [
-            "Workspace/DeepaksExtension"
+            "Workspace/MyCoolExtension"
         ]
     },
     "application": {},
