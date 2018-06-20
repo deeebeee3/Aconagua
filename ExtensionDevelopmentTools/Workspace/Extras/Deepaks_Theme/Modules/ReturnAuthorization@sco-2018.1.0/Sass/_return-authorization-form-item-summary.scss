@@ -1,0 +1,14 @@
+.return-authorization-form-item-summary-quantity-label {
+	@extend .sc-label;
+}
+.return-authorization-form-item-summary-quantity-value {
+	@extend .sc-value;
+}
+.return-authorization-form-item-summary-quantity-field {
+	@extend .input-small;
+	display: inline-block;
+	margin-right: $sc-margin-lv1;
+}
+
+.return-authorization-form-item-summary-edit-text{
+}

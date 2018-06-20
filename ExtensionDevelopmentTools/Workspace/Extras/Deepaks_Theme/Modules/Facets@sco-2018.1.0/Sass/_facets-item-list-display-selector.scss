@@ -1,0 +1,22 @@
+.facets-item-list-display-selector{
+	@extend .icon-button;
+	@extend .icon-button-controls;
+}
+
+//hide active on mobile
+.facets-item-list-display-selector.active{
+	display:none;
+
+	@media (min-width: $screen-sm-min){
+		display: inline-block;
+	}
+}
+
+//dispaly the grid icon
+.facets-item-list-display-selector-grid{
+	display:none;
+
+	@media (min-width: $screen-sm-min ){
+		display: inline-block;
+	}
+}

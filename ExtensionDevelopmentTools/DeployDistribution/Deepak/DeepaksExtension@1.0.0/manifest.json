@@ -1,0 +1,155 @@
+{
+    "name": "DeepaksExtension",
+    "fantasyName": "Deepaks Extension",
+    "vendor": "Deepak",
+    "type": "extension",
+    "cct": [
+        {
+            "icon": "img/cct_deepak_coolcct_icon.svg",
+            "settings_record": "customrecord_cct_deepak_coolcct",
+            "registercct_id": "cct_deepak_coolcct",
+            "label": "Cool CCT!",
+            "description": "My cool CCT does magic!"
+        }
+    ],
+    "target": "SCA,SCS",
+    "version": "1.0.0",
+    "description": "Deepaks Extension Todo List",
+    "assets": {
+        "img": {
+            "files": [
+                "img/cct_deepak_coolcct_icon.svg"
+            ]
+        },
+        "fonts": {
+            "files": []
+        },
+        "services": {
+            "files": [
+                "services/DeepaksModule.Service.ss",
+                "services/CoolCCT.Service.ss"
+            ]
+        }
+    },
+    "configuration": {
+        "files": [
+            "Modules/DeepaksModule/Configuration/DeepaksModule.json",
+            "Modules/CoolCCT/Configuration/CoolCCT.json"
+        ]
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/DeepaksModule/Templates/deepak_deepaksextension_deepaksmodule_list.tpl",
+                    "Modules/DeepaksModule/Templates/deepak_deepaksextension_deepaksmodule_edit.tpl",
+                    "Modules/CoolCCT/Templates/deepak_deepaksextension_coolcct_list.tpl",
+                    "Modules/CoolCCT/Templates/deepak_deepaksextension_coolcct_edit.tpl",
+                    "Modules/CoolCCT/Templates/deepak_deepaksextension_coolcct.tpl"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/DeepaksModule/Templates/deepak_deepaksextension_deepaksmodule_list.tpl",
+                    "Modules/DeepaksModule/Templates/deepak_deepaksextension_deepaksmodule_edit.tpl",
+                    "Modules/CoolCCT/Templates/deepak_deepaksextension_coolcct_list.tpl",
+                    "Modules/CoolCCT/Templates/deepak_deepaksextension_coolcct_edit.tpl",
+                    "Modules/CoolCCT/Templates/deepak_deepaksextension_coolcct.tpl"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/DeepaksModule/Templates/deepak_deepaksextension_deepaksmodule_list.tpl",
+                    "Modules/DeepaksModule/Templates/deepak_deepaksextension_deepaksmodule_edit.tpl",
+                    "Modules/CoolCCT/Templates/deepak_deepaksextension_coolcct_list.tpl",
+                    "Modules/CoolCCT/Templates/deepak_deepaksextension_coolcct_edit.tpl",
+                    "Modules/CoolCCT/Templates/deepak_deepaksextension_coolcct.tpl"
+                ]
+            }
+        }
+    },
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/DeepaksModule/Sass/_deepaksextension-deepaksmodule.scss",
+            "myaccount": "Modules/DeepaksModule/Sass/_deepaksextension-deepaksmodule.scss",
+            "checkout": "Modules/DeepaksModule/Sass/_deepaksextension-deepaksmodule.scss"
+        },
+        "files": [
+            "Modules/DeepaksModule/Sass/_deepaksextension-deepaksmodule.scss",
+            "Modules/DeepaksModule/Sass/_deepaksmodule.scss",
+            "Modules/CoolCCT/Sass/_deepaksextension-coolcct.scss",
+            "Modules/CoolCCT/Sass/_coolcct.scss"
+        ]
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/DeepaksModule/JavaScript/Deepak.DeepaksExtension.DeepaksModule.js",
+            "myaccount": "Modules/DeepaksModule/JavaScript/Deepak.DeepaksExtension.DeepaksModule.js",
+            "checkout": "Modules/DeepaksModule/JavaScript/Deepak.DeepaksExtension.DeepaksModule.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/DeepaksModule/JavaScript/Deepak.DeepaksExtension.DeepaksModule.js",
+                    "Modules/DeepaksModule/JavaScript/DeepaksModule.Router.js",
+                    "Modules/DeepaksModule/JavaScript/DeepaksModule.List.View.js",
+                    "Modules/DeepaksModule/JavaScript/DeepaksModule.Edit.View.js",
+                    "Modules/DeepaksModule/JavaScript/DeepaksModule.Collection.js",
+                    "Modules/DeepaksModule/JavaScript/DeepaksModule.Model.js",
+                    "Modules/CoolCCT/JavaScript/Deepak.DeepaksExtension.CoolCCT.js",
+                    "Modules/CoolCCT/JavaScript/CoolCCT.Router.js",
+                    "Modules/CoolCCT/JavaScript/CoolCCT.List.View.js",
+                    "Modules/CoolCCT/JavaScript/CoolCCT.Edit.View.js",
+                    "Modules/CoolCCT/JavaScript/CoolCCT.Collection.js",
+                    "Modules/CoolCCT/JavaScript/CoolCCT.Model.js",
+                    "Modules/CoolCCT/JavaScript/CoolCCT.View.js"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/DeepaksModule/JavaScript/Deepak.DeepaksExtension.DeepaksModule.js",
+                    "Modules/DeepaksModule/JavaScript/DeepaksModule.Router.js",
+                    "Modules/DeepaksModule/JavaScript/DeepaksModule.List.View.js",
+                    "Modules/DeepaksModule/JavaScript/DeepaksModule.Edit.View.js",
+                    "Modules/DeepaksModule/JavaScript/DeepaksModule.Collection.js",
+                    "Modules/DeepaksModule/JavaScript/DeepaksModule.Model.js",
+                    "Modules/CoolCCT/JavaScript/Deepak.DeepaksExtension.CoolCCT.js",
+                    "Modules/CoolCCT/JavaScript/CoolCCT.Router.js",
+                    "Modules/CoolCCT/JavaScript/CoolCCT.List.View.js",
+                    "Modules/CoolCCT/JavaScript/CoolCCT.Edit.View.js",
+                    "Modules/CoolCCT/JavaScript/CoolCCT.Collection.js",
+                    "Modules/CoolCCT/JavaScript/CoolCCT.Model.js",
+                    "Modules/CoolCCT/JavaScript/CoolCCT.View.js"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/DeepaksModule/JavaScript/Deepak.DeepaksExtension.DeepaksModule.js",
+                    "Modules/DeepaksModule/JavaScript/DeepaksModule.Router.js",
+                    "Modules/DeepaksModule/JavaScript/DeepaksModule.List.View.js",
+                    "Modules/DeepaksModule/JavaScript/DeepaksModule.Edit.View.js",
+                    "Modules/DeepaksModule/JavaScript/DeepaksModule.Collection.js",
+                    "Modules/DeepaksModule/JavaScript/DeepaksModule.Model.js",
+                    "Modules/CoolCCT/JavaScript/Deepak.DeepaksExtension.CoolCCT.js",
+                    "Modules/CoolCCT/JavaScript/CoolCCT.Router.js",
+                    "Modules/CoolCCT/JavaScript/CoolCCT.List.View.js",
+                    "Modules/CoolCCT/JavaScript/CoolCCT.Edit.View.js",
+                    "Modules/CoolCCT/JavaScript/CoolCCT.Collection.js",
+                    "Modules/CoolCCT/JavaScript/CoolCCT.Model.js",
+                    "Modules/CoolCCT/JavaScript/CoolCCT.View.js"
+                ]
+            }
+        }
+    },
+    "ssp-libraries": {
+        "entry_point": "Modules/DeepaksModule/SuiteScript/Deepak.DeepaksExtension.DeepaksModule.js",
+        "files": [
+            "Modules/DeepaksModule/SuiteScript/Deepak.DeepaksExtension.DeepaksModule.js",
+            "Modules/DeepaksModule/SuiteScript/DeepaksModule.ServiceController.js",
+            "Modules/DeepaksModule/SuiteScript/DeepaksModule.Model.js",
+            "Modules/CoolCCT/SuiteScript/Deepak.DeepaksExtension.CoolCCT.js",
+            "Modules/CoolCCT/SuiteScript/CoolCCT.ServiceController.js",
+            "Modules/CoolCCT/SuiteScript/CoolCCT.Model.js"
+        ]
+    }
+}

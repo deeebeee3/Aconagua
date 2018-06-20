@@ -1,0 +1,75 @@
+// Main navigation variables
+$sc-main-navigation-background-color: $sc-header-background-color; /* editable({"type": "color", "label": "Background"}) */
+
+$sc-main-navigation-link-background-color: $sc-header-background-color;
+$sc-main-navigation-link-color: $sc-color-secondary; /* editable({"type": "color", "label": "Link"}) */
+$sc-main-navigation-link-text-transform: capitalize;
+$sc-main-navigation-link-letter-spacing: 0;
+$sc-main-navigation-link-border-color: initial;
+$sc-main-navigation-link-border-top-width: 0;
+$sc-main-navigation-link-border-bottom-width: 0;
+$sc-main-navigation-link-margin-right: $sc-margin-lv1;
+
+$sc-main-navigation-link-hover-background-color: $sc-header-background-color;
+$sc-main-navigation-link-hover-color: $sc-color-link-hover; /* editable({"type": "color", "label": "Link hover"}) */
+$sc-main-navigation-link-hover-border-color: initial;
+$sc-main-navigation-link-hover-border-top-width: 0;
+$sc-main-navigation-link-hover-border-bottom-width: 0;
+
+$sc-main-navigation-link-active-background-color: $sc-header-background-color;
+$sc-main-navigation-link-active-color: $sc-color-link-active; /* editable({"type": "color", "label": "Link active"}) */
+$sc-main-navigation-link-active-border-color: initial;
+$sc-main-navigation-link-active-border-top-width: 0;
+$sc-main-navigation-link-active-border-bottom-width: 0;
+
+$sc-main-navigation-submenu-background-color: $sc-neutral-shade-0;
+$sc-main-navigation-submenu-heading-color: $sc-color-copy;
+$sc-main-navigation-submenu-heading-text-transform: uppercase;
+$sc-main-navigation-submenu-heading-text-decoration: none;
+$sc-main-navigation-submenu-heading-border-color: $sc-color-theme-border-light;
+
+$sc-main-navigation-submenu-link-color: $sc-color-secondary;
+$sc-main-navigation-submenu-link-hover-color: $sc-color-link-hover;
+$sc-main-navigation-submenu-link-active-color: $sc-color-copy;
+
+// Mobile navigation variables
+$sc-mobile-navigation-hamburger-icon-color: $sc-color-secondary;
+$sc-mobile-navigation-sidebar-overlay-color: $sc-neutral-shade-500;
+$sc-mobile-navigation-background-color: $sc-color-theme-background;
+
+$sc-mobile-navigation-link-background-color: $sc-color-theme-background;
+$sc-mobile-navigation-link-color: $sc-color-secondary;
+$sc-mobile-navigation-link-hover-color: $sc-color-secondary;
+$sc-mobile-navigation-link-active-color: $sc-color-secondary;
+
+$sc-mobile-navigation-border-width: 1px;
+$sc-mobile-navigation-border-color: $sc-color-theme-border-light;
+
+// Top Menu variables
+$sc-top-menu-background-color: $sc-color-theme-background; /* editable({"type": "color", "label": "Background"}) */
+$sc-top-menu-border-color: $sc-color-theme-border-light;
+
+// Top Menu links variables
+$sc-top-menu-link-background-color: $sc-top-menu-background-color;
+$sc-top-menu-link-text-color: $sc-color-secondary; /* editable({"type": "color", "label": "Link"}) */
+$sc-top-menu-link-text-transform: none;
+$sc-top-menu-link-border-color: initial;
+$sc-top-menu-link-border-top-width: 0;
+$sc-top-menu-link-border-bottom-width: 0;
+
+$sc-top-menu-link-hover-background-color: $sc-top-menu-background-color;
+$sc-top-menu-link-hover-text-color: $sc-color-link-hover; /* editable({"type": "color", "label": "Link hover"}) */
+$sc-top-menu-link-hover-border-color: initial;
+$sc-top-menu-link-hover-border-top-width: 0;
+$sc-top-menu-link-hover-border-bottom-width: 0;
+
+$sc-top-menu-link-active-background-color: $sc-top-menu-background-color;
+$sc-top-menu-link-active-text-color: $sc-color-link-active; /* editable({"type": "color", "label": "Link active"}) */
+$sc-top-menu-link-active-border-color: initial;
+$sc-top-menu-link-active-border-top-width: 0;
+$sc-top-menu-link-active-border-bottom-width: 0;
+
+// Top Menu link spacings
+$sc-top-menu-link-line-height: 1.6;
+$sc-top-menu-link-letter-spacing: 0;
+$sc-top-menu-link-spacing: 0;

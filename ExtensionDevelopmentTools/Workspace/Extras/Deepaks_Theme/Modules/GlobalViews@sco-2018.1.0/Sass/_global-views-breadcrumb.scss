@@ -1,0 +1,20 @@
+.global-views-breadcrumb-item-active {
+	@extend .breadcrumb-item-active;
+}
+
+.global-views-breadcrumb-item {
+	@extend .breadcrumb-item;
+}
+
+.global-views-breadcrumb-divider {
+	@extend .breadcrumb-divider;	
+}
+
+.global-views-breadcrumb {
+	@extend .breadcrumb;	
+	font-size:14px;
+}
+
+.global-views-breadcrumb-divider-icon {
+	@extend .breadcrumb-divider-icon;
+}

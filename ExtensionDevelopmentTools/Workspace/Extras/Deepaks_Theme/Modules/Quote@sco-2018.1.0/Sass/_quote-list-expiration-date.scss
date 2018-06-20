@@ -1,0 +1,25 @@
+.quote-list-expiration-date-icon-flag {
+  @extend .icon-flag;
+}
+
+.quote-list-expiration-date-overdue {
+  @extend .invoice-date-overdue !optional;
+}
+
+.quote-list-expiration-date-icon-overdue,
+.quote-list-expiration-date-icon-closeoverdue {
+  @extend .icon-flag;
+  margin-left: $sc-margin-lv1;
+}
+
+.quote-list-expiration-date-icon-overdue {
+  color: $sc-color-error;
+}
+
+.quote-list-expiration-date-icon-closeoverdue {
+  color: $sc-color-warning;
+}
+
+.quote-list-expiration-date-closeoverdue {
+  @extend .sc-value;
+}

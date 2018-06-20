@@ -1,0 +1,18 @@
+$color-glowy: #3bfbfd; /* editable({
+    "type": "color",
+    "label": "Glowy Color",
+    "description": "For when you want extra glowy stuff"
+})*/
+
+@keyframes glowy {
+  0% {box-shadow: 0 0 -10px $color-glowy;}
+  20% {box-shadow: 0 0 100px $color-glowy;}
+  40% {box-shadow: 0 0 200px $color-glowy;}
+  60% {box-shadow: 0 0 200px $color-glowy;}
+  80% {box-shadow: 0 0 100px $color-glowy;}
+  100% {box-shadow: 0 0 -10px $color-glowy;}
+}
+
+.glowy {
+  animation: glowy 1500ms infinite;
+}

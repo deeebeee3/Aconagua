@@ -1,0 +1,131 @@
+.cart-lines-free-name{
+	margin-bottom:$sc-margin-lv2;
+}
+
+.cart-lines-free-name-link{
+	@extend .medium-title-navigable;
+}
+
+.cart-lines-free-name-viewonly{
+	@extend .medium-title-viewonly;
+}
+
+.cart-lines-free-thumbnail{
+	img{
+		width:$img-larger;
+	}
+}
+
+.cart-lines-free-price{
+	margin-bottom:$sc-margin-lv2;
+}
+
+.cart-lines-free-price .transaction-line-views-price-lead{
+	@extend .middle-price;
+}
+
+.cart-lines-free-options{
+	.cart-option{
+		font-size:$sc-font-size-m;
+	}
+}
+
+.cart-lines-free-row {
+	@extend .row;
+	margin-bottom:$sc-margin-lv4;
+}
+
+.cart-lines-free-col-first {
+	@extend .col-xs-4;
+	@extend .col-lg-3;
+}
+
+.cart-lines-free-col-middle {
+	@extend .col-xs-8;
+	@extend .col-lg-5;
+
+	.cart-lines-free-item-actions{
+		@media (max-width: $screen-md-max) {
+			display: none;
+		}
+	}
+}
+
+.cart-lines-free-col-last {
+	@extend .col-xs-12;
+	@extend .col-lg-4;
+
+	.cart-lines-free-item-actions{
+		@media (min-width: $screen-lg-min) {
+			display: none;
+		}
+	}
+}
+
+.cart-lines-free-item-summary-quantity-add {
+	@extend .quantity-input-button-add;
+}
+
+.cart-lines-free-item-summary-quantity-remove {
+	@extend .quantity-input-button-remove;
+}
+
+.cart-lines-free-item-summary-quantity-value {
+ 	@extend .quantity-input;
+}
+
+.cart-lines-free-item-summary-container-qty {
+	overflow: auto;
+}
+
+.cart-lines-free-item-summary-container-qty-label, .cart-lines-free-item-summary-container-qty-value {
+
+	@extend .sc-label;
+	color: $sc-color-copy-dark;
+	font-weight: 600;
+	margin-bottom: 0;
+
+	@media (min-width: $screen-md-min) {
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+.cart-lines-free-item-summary-container-qty-input {
+	@extend .sc-value;
+
+	@media (min-width: $screen-md-min) {
+			display: inline-block;
+			vertical-align: middle;
+			margin-left: $sc-margin-lv2;
+	}
+}
+
+.cart-lines-free-item-summary-amount-label{
+	@extend .transaction-line-views-cell-actionable-amount-label;
+	color: $sc-color-copy-dark;
+	font-weight: 600;
+}
+
+.cart-lines-free-item-summary-view-old-price{
+	@extend .transaction-line-views-price-old;
+	margin-left: $sc-margin-lv1;
+}
+
+.cart-lines-free-shipping-method {
+	margin-top: $sc-margin-lv3;
+}
+
+.cart-lines-free-item-actions {
+	@extend .button-link;
+}
+
+.cart-lines-free-badge {
+	@extend .free-badge;
+	position: absolute;
+}
+
+.cart-lines-free-stock{}
+.cart-lines-free-summary{}
+
+.cart-lines-free-item-summary-amount-value{}
+.cart-lines-free-alert-placeholder{}

@@ -1,0 +1,7 @@
+.requestquote-wizard-module-items-line-actions{}
+
+.requestquote-wizard-module-items-line-actions-button-remove{
+	@extend .button-tertiary;
+	@extend .button-small;
+	margin-bottom: $sc-margin-lv4;
+}

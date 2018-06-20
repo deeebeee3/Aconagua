@@ -1,0 +1,24 @@
+.order-wizard-submitbutton-container {
+	@extend .col-xs-12;
+	padding:0;
+	margin-bottom:$sc-padding-base * 4;
+	display:none;
+
+	@media (min-width: $screen-sm-min) {
+		display:block;
+	}
+
+}
+.order-wizard-submitbutton-module-top{
+	margin-top: $sc-margin-lv2;
+	margin-bottom: $sc-margin-lv4;
+	@media (min-width: $screen-sm-min){
+		display: none;
+	}
+}
+
+.order-wizard-submitbutton-module-button{
+	@extend .button-primary;
+	@extend .button-large;
+	@extend .button-generic;
+}

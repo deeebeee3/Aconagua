@@ -1,0 +1,61 @@
+.facets-faceted-navigation-item-icon-ok {
+	@extend .fa;
+}
+
+.facets-faceted-navigation-item-icon-plus {
+	@extend .fa;
+}
+
+.facets-faceted-navigation-item-optionlist-extra-button {
+	@extend .button-small;
+	display: inline-block;
+	margin: $sc-margin-lv2 0;
+	padding: 0;
+}
+
+.facets-faceted-navigation-item-optionlist-extra-wrapper {}
+
+.facets-faceted-navigation-item-facet-group {
+	padding: $sc-margin-lv2 $sc-margin-lv3;
+	@media (min-width: $screen-md-min) {
+		padding-left: 0;
+	}
+}
+
+.facets-faceted-navigation-item-facet-group-expander {
+	@extend .facets-faceted-navigation-facet-group-expander;
+}
+
+.facets-faceted-navigation-item-facet-group-expander-icon {
+	@extend .facets-faceted-navigation-facet-group-expander-icon;
+}
+
+.facets-faceted-navigation-item-facet-group-wrapper {}
+
+.facets-faceted-navigation-item-facet-group-content {}
+
+.facets-faceted-navigation-item-facet-optionlist {}
+
+.facets-faceted-navigation-item-facet-optionlist-extra {}
+
+.facets-faceted-navigation-item-facet-group-title {
+	@extend .facets-faceted-navigation-facet-group-title;
+}
+
+.facets-faceted-navigation-item-facet-option {
+	@extend .facets-faceted-navigation-facet-option;
+}
+
+.facets-faceted-navigation-item-facet-option-circle {
+	@extend .facets-faceted-navigation-facet-option-circle;
+}
+
+.facets-faceted-navigation-item-filter-delete {}
+
+.facets-faceted-navigation-item-filter-delete-icon {}
+
+.facets-faceted-navigation-item-alt-caption {
+	display:none;
+}
+
+.facets-faceted-navigation-item-facet-multi {}

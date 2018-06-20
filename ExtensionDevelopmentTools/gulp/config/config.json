@@ -30,8 +30,11 @@
         "extensions_dest_name": "Deploy_Extensions",
         "extmech_parent": "-15",
         "extensions_path": [
-            "Workspace/MyCoolExtension"
-        ]
+            "Workspace/DeepaksExtension"
+        ],
+        "theme_path": "Workspace/Extras/Deepaks_Theme",
+        "overrides_path": "Workspace/Extras/Deepaks_Theme/Overrides",
+        "extensions_dest": "5781"
     },
     "application": {},
     "script": {

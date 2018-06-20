@@ -1,0 +1,27 @@
+.shopping-layout {
+	@extend %sc-layout;
+}
+
+.shopping-layout-header {
+	margin-bottom: $sc-margin-lv4;
+	box-shadow: 3px 0 6px 0 $sc-color-theme-500;
+
+  	@media (min-width: $screen-sm-min){
+		margin-bottom: $sc-margin-lv3;
+	}
+}
+
+.shopping-layout-footer {
+	@extend %sc-footer !optional;
+}
+
+.shopping-layout-breadcrumb, .shopping-layout-notifications {
+	@extend .container;
+}
+
+.shopping-layout-no-javascript-msg {
+	@extend .message-warning;
+	width: 100%;
+}
+
+.shopping-layout-content{}

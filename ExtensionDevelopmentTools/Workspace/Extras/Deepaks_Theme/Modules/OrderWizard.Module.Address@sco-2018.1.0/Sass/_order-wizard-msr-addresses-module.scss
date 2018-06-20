@@ -1,0 +1,31 @@
+.order-wizard-msr-addresses-module-new-button{
+	@extend .button-tertiary;
+	@extend .button-small;
+	margin-bottom: $sc-margin-lv2;
+}
+.order-wizard-msr-addresses-module-container{
+	@extend .box-column;
+	overflow:hidden;
+	h5{
+		text-transform:uppercase;
+		margin-bottom: $sc-margin-lv2;
+	}
+}
+
+.order-wizard-msr-addresses-module-address-link{
+	margin-bottom: $sc-margin-lv4;
+	display:block;
+}
+
+.order-wizard-msr-addresses-module-save-button {
+	@extend .button-large;
+	@extend .button-primary;
+}
+
+.order-wizard-msr-addresses-module-new-address-title{
+}
+
+.order-wizard-msr-addresses-module-section-header{
+}
+.order-wizard-msr-addresses-module-form-placeholder{
+}

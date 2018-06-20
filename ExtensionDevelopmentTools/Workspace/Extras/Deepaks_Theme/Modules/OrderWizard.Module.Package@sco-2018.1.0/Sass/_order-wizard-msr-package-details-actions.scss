@@ -1,0 +1,14 @@
+.order-wizard-msr-package-details-actions-remove-button,
+.order-wizard-msr-package-details-actions-move-button{
+	@extend .button-tertiary;
+	@extend .button-small;
+}
+
+.order-wizard-msr-package-details-actions-remove-button {
+	margin-bottom: $sc-margin-lv2;
+	margin-right: $sc-margin-lv2;
+
+	@media (min-width: $screen-sm-min){
+		margin-right: 0;
+	}
+}

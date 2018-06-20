@@ -1,0 +1,15 @@
+.order-wizard-paymentmethod-external-module-row {
+	@extend .row;
+}
+
+.order-wizard-paymentmethod-external-module-column-left {
+	@extend .col-xs-12;
+	@extend .col-sm-4;
+}
+
+.order-wizard-paymentmethod-external-module-column-right {
+	@extend .col-xs-12;
+	@extend .col-sm-8;
+}
+
+.order-wizard-paymentmethod-external-module-image {}
